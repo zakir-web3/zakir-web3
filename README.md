@@ -80,22 +80,3 @@ I design and ship production-oriented backend systems — relayers, validators, 
 **Open to collaboration** on Web3 infrastructure, cross-chain systems, and Cosmos tooling.
 
 </div>
-
----
-
-<details>
-<summary><b>🇨🇳 中文简介</b></summary>
-
-<br>
-
-Web3 基础设施开发者，专注 **EVM 跨链桥**、**WalletConnect 中继服务** 和 **Cosmos 生态工具**。
-
-擅长用 Go 和 Solidity 构建可自部署的后端系统：Relayer、验证者签名聚合、链上索引与智能合约。重视架构清晰度、可运维性和安全设计。
-
-**代表项目：**
-- [bridge](https://github.com/zakir-web3/bridge) — 自托管 EVM lock-and-mint 跨链桥
-- [go-walletconnect-bridge](https://github.com/zakir-web3/go-walletconnect-bridge) — Go 版 WalletConnect Bridge Server
-
-欢迎就 Web3 基础设施、跨链系统、Cosmos 工具链交流合作。
-
-</details>
