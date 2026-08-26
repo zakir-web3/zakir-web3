@@ -21,6 +21,8 @@ Web3 infrastructure developer focused on **EVM cross-chain systems**, **WalletCo
 
 I design and ship production-oriented backend systems — relayers, validators, indexers, and smart contracts — with an emphasis on clear architecture, operability, and security-minded defaults.
 
+Contributor to [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) — **21 merged PRs** across client tooling, config, and cosmovisor.
+
 **Core stack:** Go · Solidity · TypeScript · EVM · Cosmos SDK · EIP-712 · Docker
 
 **Currently building:** [bridge](https://github.com/zakir-web3/bridge) — self-hosted EVM lock-and-mint bridge with validator quorum
@@ -33,6 +35,10 @@ I design and ship production-oriented backend systems — relayers, validators, 
 | :--- | :--- | :---: |
 | [**bridge**](https://github.com/zakir-web3/bridge) | Self-hosted EVM lock-and-mint bridge: Solidity contracts + Go relayer with EIP-712 validator quorum | — |
 | [**go-walletconnect-bridge**](https://github.com/zakir-web3/go-walletconnect-bridge) | WalletConnect bridge server implemented in Go | ⭐ 14 |
+
+### 🤝 Open Source Contributions
+
+[![cosmos-sdk PRs](https://img.shields.io/badge/cosmos--sdk-21%20merged%20PRs-2E3148?style=flat-square&logo=cosmos&logoColor=white)](https://github.com/cosmos/cosmos-sdk/pulls?q=is%3Apr+author%3Azakir-web3+is%3Aclosed)
 
 <details>
 <summary><b>What I work on</b></summary>
