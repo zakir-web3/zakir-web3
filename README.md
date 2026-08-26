@@ -70,25 +70,12 @@ I design and ship production-oriented backend systems — relayers, validators, 
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=zakir-web3&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-streak-stats.demolab.com/?user=zakir-web3&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zakir-web3&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&exclude_repo=cosmos-sdk,go-ethereum,explorer,ethermint,fx-core,gaia,tendermint,v2-sdk,interface,solidity-lib,awesome-cosmos,tm-load-test,hyperliquid-python-sdk,hyperliquid-rust-sdk,order_book_server,matic-docs,gotron-sdk,template-ethereum-contracts,json,cosmos-watcher" alt="Top languages" />
-
-</div>
-
----
-
 ### 📫 Connect
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-zakir--web3-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zakir-web3)
-[![Email](https://img.shields.io/badge/Email-zakir--code@proton.me-EA4335?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:zakir-code@proton.me)
+[![Email](https://img.shields.io/badge/Email-zakir--web3@proton.me-EA4335?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:zakir-web3@proton.me)
 
 **Open to collaboration** on Web3 infrastructure, cross-chain systems, and Cosmos tooling.
 
