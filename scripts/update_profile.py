@@ -64,14 +64,6 @@ def main() -> int:
     content = replace_marker(content, "cosmos-merged-prs", str(merged_prs))
     content = replace_marker(content, "bridge-stars", format_stars(bridge_stars))
     content = replace_marker(content, "wc-stars", format_stars(wc_stars))
-    content = replace_marker(
-        content,
-        "cosmos-badge-line",
-        (
-            f"[![cosmos-sdk PRs](https://img.shields.io/badge/cosmos--sdk-{merged_prs}%20merged%20PRs-2E3148?style=flat-square&logo=cosmos&logoColor=white)]"
-            f"(https://github.com/cosmos/cosmos-sdk/pulls?q=is%3Apr+author%3Azakir-web3+is%3Aclosed)"
-        ),
-    )
 
     with open(README_PATH, encoding="utf-8") as f:
         original = f.read()
