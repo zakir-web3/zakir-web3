@@ -76,7 +76,7 @@ Contributor to [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) — **<!-- pro
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-zakir--web3-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zakir-web3)
+[![Telegram](https://img.shields.io/badge/Telegram-@zakir668-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/zakir668)
 [![Email](https://img.shields.io/badge/Email-zakir--web3@proton.me-EA4335?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:zakir-web3@proton.me)
 
 **Open to collaboration** on Web3 infrastructure, cross-chain systems, and Cosmos tooling.
