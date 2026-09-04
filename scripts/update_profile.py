@@ -35,15 +35,6 @@ def search_count(query: str) -> int:
     return int(data.get("total_count", 0))
 
 
-def repo_stars(owner: str, repo: str) -> int:
-    data = api_get(f"https://api.github.com/repos/{owner}/{repo}")
-    return int(data.get("stargazers_count", 0))
-
-
-def format_stars(count: int) -> str:
-    return f"⭐ {count}" if count else "—"
-
-
 def replace_marker(content: str, name: str, value: str) -> str:
     pattern = rf"(<!-- profile:auto:{re.escape(name)} -->)(.*?)(<!-- /profile:auto:{re.escape(name)} -->)"
     replacement = rf"\g<1>{value}\g<3>"
@@ -55,15 +46,11 @@ def replace_marker(content: str, name: str, value: str) -> str:
 
 def main() -> int:
     merged_prs = search_count(f"repo:cosmos/cosmos-sdk author:{USERNAME} type:pr is:merged")
-    bridge_stars = repo_stars(USERNAME, "bridge")
-    wc_stars = repo_stars(USERNAME, "go-walletconnect-bridge")
 
     with open(README_PATH, encoding="utf-8") as f:
         content = f.read()
 
     content = replace_marker(content, "cosmos-merged-prs", str(merged_prs))
-    content = replace_marker(content, "bridge-stars", format_stars(bridge_stars))
-    content = replace_marker(content, "wc-stars", format_stars(wc_stars))
 
     with open(README_PATH, encoding="utf-8") as f:
         original = f.read()
@@ -75,12 +62,7 @@ def main() -> int:
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(content)
 
-    print(
-        "Updated profile README:",
-        f"cosmos merged PRs={merged_prs},",
-        f"bridge stars={bridge_stars},",
-        f"go-walletconnect-bridge stars={wc_stars}",
-    )
+    print(f"Updated profile README: cosmos merged PRs={merged_prs}")
     return 0
 
 

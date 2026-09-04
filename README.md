@@ -33,8 +33,8 @@ Contributor to [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) — **<!-- pro
 
 | Project | Description | Stars |
 | :--- | :--- | :---: |
-| [**bridge**](https://github.com/zakir-web3/bridge) | Self-hosted EVM lock-and-mint bridge: Solidity contracts + Go relayer with EIP-712 validator quorum | <!-- profile:auto:bridge-stars -->—<!-- /profile:auto:bridge-stars --> |
-| [**go-walletconnect-bridge**](https://github.com/zakir-web3/go-walletconnect-bridge) | WalletConnect bridge server implemented in Go | <!-- profile:auto:wc-stars -->⭐ 14<!-- /profile:auto:wc-stars --> |
+| [**bridge**](https://github.com/zakir-web3/bridge) | Self-hosted EVM lock-and-mint bridge: Solidity contracts + Go relayer with EIP-712 validator quorum | ![bridge stars](https://img.shields.io/github/stars/zakir-web3/bridge?style=flat-square) |
+| [**go-walletconnect-bridge**](https://github.com/zakir-web3/go-walletconnect-bridge) | WalletConnect bridge server implemented in Go | ![wc stars](https://img.shields.io/github/stars/zakir-web3/go-walletconnect-bridge?style=flat-square) |
 
 <details>
 <summary><b>What I work on</b></summary>
